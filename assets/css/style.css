@@ -1,0 +1,118 @@
+body{
+    padding:0;
+    margin:0;
+}
+footer {
+background-color:#f0f0f0;
+display:flex;
+margin-top:50px;
+
+}
+header,footer{
+padding:0px 15px 0px 15px
+}
+.world-cup-image{
+width:100%;
+height:100%;
+margin-bottom: 20px;
+
+}
+.google-mic{
+width:15px;
+vertical-align: middle;
+
+}
+header ul, footer ul{
+list-style-type:none;
+
+}
+
+header ul{
+display:flex;
+justify-content:space-between;
+width:300px;
+margin-left:auto;
+}
+
+footer ul{
+display:flex;
+text-decoration:none;
+justify-content:space-between;
+padding-left:0;
+}
+
+main{
+    width:600px;
+    margin: auto;
+}
+
+
+
+main form input { padding:15px 10px;
+    width:90%;
+border:0;
+font-size: 16px;
+outline: none;
+}
+main form input:hover{
+    outline: none;
+}
+
+main form .input-group{
+    background-color:#ffffff;
+    border: 1px solid #ddd;
+    margin-bottom:30px;
+}
+.footer-column-one{
+    display: flex;
+    margin-right: auto;
+
+}
+
+.button-group{
+    text-align: center;
+}
+.button-group button:first-child {
+    margin-right: 10px;
+}
+.button-group button{
+    padding:10px 15px;
+    font-weight: bold;
+    color:#999;
+    background-color:#f2f2f2;
+    border-color:#f2f2f2;
+    border: 0;
+}
+.button-group button:hover{
+    color:#000;
+    border:1px solid #ddd;
+}
+.useful-links ul {
+list-style: none;
+padding: 0;
+display: inline-flex;
+width:250px;
+justify-content: space-evenly;
+
+
+}
+.useful-links{
+    margin-top: 30px;
+    text-align: center;
+}
+.useful-links a{
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+ a:hover{
+    text-decoration: underline;
+}
+footer  .footer-column-one li {
+    margin-right: 10px;
+}
+footer .footer-column-two li{
+    margin-left: 10px;
+}
